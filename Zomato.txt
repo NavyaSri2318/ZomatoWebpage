@@ -1,0 +1,233 @@
+1.First im creating a html css file
+and crating a github repositary
+
+Navya sri@Navya MINGW64 ~
+$ ping google.com
+
+Pinging google.com [2404:6800:4007:811::200e] with 32 bytes of data:
+Reply from 2404:6800:4007:811::200e: time=847ms
+Reply from 2404:6800:4007:811::200e: time=87ms
+Reply from 2404:6800:4007:811::200e: time=226ms
+Reply from 2404:6800:4007:811::200e: time=443ms
+
+Ping statistics for 2404:6800:4007:811::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 87ms, Maximum = 847ms, Average = 400ms
+
+Navya sri@Navya MINGW64 ~
+$ cd desktop
+
+Navya sri@Navya MINGW64 ~/desktop
+$ ls
+'Downloads - Shortcut.lnk'*                        HIT-2-Telugu-n3fre-2022.mp4  'Microsoft Edge.lnk'*      Strange-Thought-2021.mp4     'Visual Studio Code.lnk'*   firstproject/
+'Eclipse IDE for Java Developers - 2022-09.lnk'*   MEmu.lnk*                     Mysql/                    Telegram.lnk*                 Webex.lnk*                'uTorrent Web.lnk'*
+ GoTo.lnk*                                         Major-Telugu-hg1kd-2022.mp4  'Navyasri - Chrome.lnk'*   Thiru-Telugu-n3dnf-2022.mp4   desktop.ini
+
+Navya sri@Navya MINGW64 ~/desktop
+$ cd f
+bash: cd: f: No such file or directory
+
+Navya sri@Navya MINGW64 ~/desktop
+$ cd firstproject/
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject
+$ git intit
+git: 'intit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject
+$ git init
+Initialized empty Git repository in C:/Users/Navya sri/Desktop/firstproject/.git/
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git remote add origin https://github.com/NavyaSri2318/ZomatoWebpage.git
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Zomato.txt
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git add .
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Zomato.txt
+        new file:   index.html
+        new file:   style.css
+
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git commit -m "Added the first setup files"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Navya sri@Navya.(none)')
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git commit - m "Added the first setup files"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'Added the first setup files' did not match any file(s) known to git
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Zomato.txt
+        new file:   index.html
+        new file:   style.css
+
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git commit m "added files"
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'added files' did not match any file(s) known to git
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Zomato.txt
+        new file:   index.html
+        new file:   style.css
+
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/NavyaSri2318/ZomatoWebpage.git'
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ install git
+install: missing destination file operand after 'git'
+Try 'install --help' for more information.
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ github
+bash: github: command not found
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Zomato.txt
+        new file:   index.html
+        new file:   style.css
+
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git commit -- m "yg"
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'yg' did not match any file(s) known to git
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git commit -m
+error: switch `m' requires a value
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git commit -m "files added"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Navya sri@Navya.(none)')
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ ^[[200~ git config --global user.email "you@example.com"
+bash: $'\E[200~': command not found
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ ^[[200~ git config --global user.email "navyasri2365@gmail.com"
+bash: $'\E[200~': command not found
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$  git config --global user.email "navyasri2365@gmail.com"
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git commit -m "added files"
+[master (root-commit) 3788310] added files
+ 3 files changed, 1 insertion(+)
+ create mode 100644 Zomato.txt
+ create mode 100644 index.html
+ create mode 100644 style.css
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git push origin master
+
+
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git push origin master
+
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 275 bytes | 91.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/NavyaSri2318/ZomatoWebpage.git
+ * [new branch]      master -> master
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Navya sri@Navya MINGW64 ~/desktop/firstproject (master)
+$
